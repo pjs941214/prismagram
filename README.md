@@ -10,9 +10,9 @@ Instagram clone with Express + Prisma + React and React Native
 - [V] Comment on a photo
 - [V] Search by user
 - [V] Search by location
+- [V] Follow / Unfollow user
 - [ ] See the feed
 - [ ] See user profile
-- [ ] Follow / Unfollow user
 - [ ] Edit my profile
 - [ ] Upload a photo
 - [ ] Edit / Delete the photo
