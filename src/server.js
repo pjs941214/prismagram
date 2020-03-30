@@ -4,16 +4,19 @@ import logger from "morgan";
 import schema from "./schema";
 import "./passport";
 import { authenticateJWT } from "./passport";
+import { isAuthenticated } from "./middlewares";
 
 const PORT = process.env.PORT || 4000;
 
 const server = new GraphQLServer({
-    schema,
-    context: ({ request }) => ({ request })
+	schema,
+	context: ({ request }) => ({ request, isAuthenticated })
 });
 
 // Middleware for logs
 server.express.use(logger("dev"));
 server.express.use(authenticateJWT);
 
-server.start({ port: PORT }, () => console.log(`Server running on http://localhost:${PORT}`));
+server.start({ port: PORT }, () =>
+	console.log(`Server running on http://localhost:${PORT}`)
+);
