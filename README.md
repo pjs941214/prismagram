@@ -1,20 +1,26 @@
-# prismagram
-Instagram clone with Express + Prisma + React and React Native
+# Prismagram
+
+Instragram clone with Express + Prisma + React and React Native
 
 ## User Stories
 
-- [X] Create account
-- [X] Request Secret
-- [X] Confirm Secret (Log in)
-- [X] Like / Unlike a photo
-- [X] Comment on a photo
-- [X] Search by user
-- [X] Search by location
-- [X] Follow / Unfollow user
-- [X] Edit my profile
-- [X] See user profile
-- [X] See My profile
-- [X] See the full photo
-- [ ] See the feed
+- [x] Create account
+- [x] Request Secret
+- [x] Confirm Secret (Login)
+- [x] Like / Unlike a photo
+- [x] Comment on a photo
+- [x] Search by user
+- [x] Search by location
+- [x] Follow User
+- [x] Unfollow User
+- [x] Edit my profile
+- [x] See user profile
+- [x] See MY profile
+- [x] See the full photo
 - [ ] Upload a photo
-- [ ] Edit / Delete the photo
+- [ ] Edit the photo (Delete)
+- [ ] See the feed
+- [ ] See rooms
+- [ ] See room
+- [ ] Send private Message
+- [ ] Receive Message (Realtime)
