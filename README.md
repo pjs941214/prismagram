@@ -18,9 +18,9 @@ Instragram clone with Express + Prisma + React and React Native
 - [x] See MY profile
 - [x] See the full photo
 - [x] Upload a photo
-- [ ] Edit the photo (Delete)
-- [ ] See the feed
-- [ ] See rooms
-- [ ] See room
-- [ ] Send private Message
-- [ ] Receive Message (Realtime)
+- [x] Edit the photo (Delete)
+- [x] See the feed
+- [x] See rooms
+- [x] See room
+- [x] Send private Message
+- [x] Receive Message (Realtime)

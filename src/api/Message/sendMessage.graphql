@@ -1,3 +1,0 @@
-type Mutation {
-	sendMessage(room: String, message: String!, toId: String!): Message!
-}
