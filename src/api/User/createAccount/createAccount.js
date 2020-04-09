@@ -8,16 +8,16 @@ export default {
 				email,
 				firstName = "",
 				lastName = "",
-				bio = ""
+				bio = "",
 			} = args;
-			const user = await prisma.createUser({
+			await prisma.createUser({
 				username,
 				email,
 				firstName,
 				lastName,
-				bio
+				bio,
 			});
-			return user;
-		}
-	}
+			return true;
+		},
+	},
 };
