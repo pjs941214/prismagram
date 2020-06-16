@@ -12,11 +12,11 @@ export default {
 			} = args;
 			const exists = await prisma.$exists.user({
 				where: {
-					OR: [{ username: args.username }, { email: args.email }]
+					OR: [{ username }, { email }]
 				}
 			});
 			if (exists) {
-				throw Error("This username is already taken");
+				throw Error("This username / Email is already taken");
 			}
 			await prisma.createUser({
 				username,
