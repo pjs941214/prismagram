@@ -13,6 +13,7 @@
     "@graphql-tools/load-files": "^6.4.0",
     "@graphql-tools/merge": "^8.1.2",
     "@graphql-tools/schema": "^8.2.0",
+    "@prisma/client": "^2.30.3",
     "dotenv": "^10.0.0",
     "graphql-yoga": "^1.18.3",
     "morgan": "^1.10.0"
